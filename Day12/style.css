@@ -1,0 +1,12 @@
+/* Your regular light mode styles go here */
+
+body {
+    transition: background-color 0.8s ease, color 0.8s ease;
+    background-color: #b2adad; /* Light background color */
+    color: #000000; /* Light text color */
+}
+
+.dark-mode {
+    background-color: #080404; /* Dark background color */
+    color: #ffffff; /* Dark text color */
+}

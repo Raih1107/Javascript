@@ -1,0 +1,18 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "FirstMYSQL Connection",
+            "database": "airbnb",
+            "username": "Himanshu Rai",
+            "password": "Himanshu@2307"
+        }
+    ]
+}

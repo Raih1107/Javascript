@@ -1,0 +1,8 @@
+Javascript Topics done today:
+
+Creating Elements
+Adding an element
+Modifying the text
+Modifying attributes & classes
+Remove elements
+Event Listeners  --> mouseover events

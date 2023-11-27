@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    place-items: center;
+    background-color: rgb(6, 32, 86);
+}
+
+h1 {
+    margin-bottom: 2rem;
+    color: rgb(231, 21, 2);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 16rem; /* Use 100% width on small screens */
+    gap: 1rem;
+}
+
+input,
+select,
+textarea {
+    font-size: 1rem;
+    color: #fff;
+    padding: 1rem;
+    border: 1px solid rgb(245, 5, 5);
+    background-color: rgb(18, 2, 71);
+}
+
+textarea {
+    height: 6rem;
+}
+
+button {
+    width: 100%; /* Make the button full width */
+    padding: 1rem;
+    cursor: pointer;
+    background: rgb(181, 58, 58);
+    color: white;
+    font-size: 1.5rem;
+}
+
+/* Media Query for screens larger than 768px */
+@media only screen and (min-width: 768px) {
+    form {
+        width: 500px; /* Adjust width for larger screens */
+    
+    }
+}

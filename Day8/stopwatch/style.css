@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato' ,sans-serif;
+}
+
+body{
+    height: 100vh;
+    background: url(what.jpg)  no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 60%;
+    min-width: 300px;
+    height: 250px;
+    background-color: #725870;
+    border-radius: 0.7rem;
+    box-shadow: 0 0 3px;
+    opacity: 0.9;
+}
+
+
+#timer{
+    width: 100%;
+    font-size: 4rem;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.buttons{
+    text-align: center;
+}
+
+button{
+    margin: 0 0.7rem;
+    border: none;
+
+}
+
+button i {
+    font-size: 2rem;
+    padding: 0.7rem;
+    color: #fff;
+    width: 3.1rem;
+}
+
+
+#play{
+    background-color: green;
+
+}
+
+#pause{
+    background-color: orange;
+}
+#reset{
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

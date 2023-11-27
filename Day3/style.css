@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:'Inter',  serif;
+    background-color: rgb(85, 102, 121);
+    color: #fff;
+}
+
+#heading{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+    margin: 1em;
+}
+
+.container{
+    border: 0.2em solid red;
+    width:90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    border: 0.1em solid #fff;
+    border-radius: 1em;
+    background: none;
+    color: white;
+    padding: 5em 1em;
+    /* text-align: center; */
+    font-size: 2rem;
+    font-weight: 600;
+    width: 14%;
+}
+
+div{
+    border: 0.1em solid #fff;
+    border-radius: 1em;
+    background: none;
+    color: white;
+    width: 80%;
+    font-size: 2rem;
+    text-align: center;
+    padding: 1em;
+}
+
+.hidden-content{
+    display: none;
+}
+
+.hidden-content.reveal-btn{
+    display: block;
+}
+
